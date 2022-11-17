@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>Inicio</title>
+</head>
+<body>
+    <!-- Header - Navbar -->
+    <header class="header">
+        <img src="./images/logo.png" class="headerLogo" alt="Logo" title="Logo">
+        <nav class="headerNav">
+            <ul class="headerNavUl">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="./pages/productos.html">Productos</a></li>
+                <li><a href="./pages/servicios.html">Servicios</a></li>
+                <li><a href="./pages/nosotros.html">Nosotros</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main - Banner -->
+    <main class="main">
+        <div class="mainContenido">
+            <h1>Corium México</h1>
+            <p>Artesanías de cuero</p>
+            <a href="./pages/productos.html" class="btn1">Ver productos</a>
+        </div>
+    </main>
+
+    <!-- Section 1 - Diferenciadores -->
+    <section class="diferenciadores">
+        <h2>¿Por qué elegirnos?</h2>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <img src="./images/sinimg.jpg" alt="Diferenciador 1" title="Diferenciador 1">
+                <h4>Diferenciador 1</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, dolor temporibus. Facere</p>
+            </div>
+            <div class="tarjeta">
+                <img src="./images/sinimg.jpg" alt="Diferenciador 2" title="Diferenciador 2">
+                <h4>Diferenciador 2</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, dolor temporibus. Facere</p>
+            </div>
+            <div class="tarjeta">
+                <img src="./images/sinimg.jpg" alt="Diferenciador 3" title="Diferenciador 3">
+                <h4>Diferenciador 3</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, dolor temporibus. Facere</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2 - Paralax-->
+    <section class="paralax">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet at, ullam maiores pariatur cupiditate consectetur neque voluptate tempora corrupti ex quas quidem assumenda aut dolore est ut, aliquam cum dicta.</p>
+        <a href="./pages/productos.html" class="btn1">Ver productos</a>
+    </section>
+    
+    <!-- Section 3 - Productos -->
+    <section class="productos">
+        <h2>Nuestros productos</h2>
+        <div class="tarjetasProductos">
+            <div class="producto">
+                <img src="./images/sinimg.jpg" alt="Producto 1" title="Producto 1">
+                <h3>Producto</h3>
+                <p>$1,000 MXN - Envio gratis</p>
+                <a href="./pages/productos.html" class="btn1">Ver producto</a>
+            </div>
+            <div class="producto">
+                <img src="./images/sinimg.jpg" alt="Producto 2" title="Producto 2">
+                <h3>Producto</h3>
+                <p>$1,000 MXN - Envio gratis</p>
+                <a href="./pages/productos.html" class="btn1">Ver producto</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Section 4 - Servicios -->
+    <section class="servicios">
+        <h2>Nuestros servicios</h2>
+        <div class="tarjetasServicios">
+            <div class="servicio">
+                <img src="./images/sinimg.jpg" alt="Servicio 1" title="Servicio 1">
+                <h3>Servicio</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic cum odit, earum recusandae molestias voluptatum nam sequi quam, velit facilis odio! Ipsa, modi quis id sed rerum molestiae enim pariatur.</p>
+                <a href="./pages/servicios.html" class="btn1">Ver servicio</a>
+            </div>
+            <div class="servicio">
+                <img src="./images/sinimg.jpg" alt="Servicio 2" title="Servicio 2">
+                <h3>Servicio</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic cum odit, earum recusandae molestias voluptatum nam sequi quam, velit facilis odio! Ipsa, modi quis id sed rerum molestiae enim pariatur.</p>
+                <a href="./pages/servicios.html" class="btn1">Ver servicio</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Section 5 - Formulario-->
+    <section class="formulario">
+        <h2>Contáctanos</h2>
+        <form action="" method="post">
+            <label for="nombre">Nombre</label>
+            <br>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <br>
+            <label for="msg">Mensaje</label>
+            <br>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+            <br>
+            <button type="submit" class="btn1">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Todos los derechos reservados &copy</p>
+    </footer>
+
+</body>
+</html>
