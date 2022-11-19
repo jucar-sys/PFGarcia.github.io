@@ -59,60 +59,80 @@
     </section>
 
     <!-- Section 2 - Nosotros -->
-    <section>
-        <h2>¿Quienes somos?</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla amet odit aperiam eos reiciendis, earum similique minus. Consequatur assumenda beatae totam enim ipsam est, quia, inventore cupiditate doloribus dolore odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus natus saepe voluptate sint est neque at incidunt repellendus, assumenda libero consequatur, ea repudiandae dolorum. Magni illo voluptates et velit cumque!</p>
+    <section class="container py-5 text-center">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <h2>¿Quienes somos?</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla amet odit aperiam eos reiciendis, earum similique minus. Consequatur assumenda beatae totam enim ipsam est, quia, inventore cupiditate doloribus dolore odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus natus saepe voluptate sint est neque at incidunt repellendus, assumenda libero consequatur, ea repudiandae dolorum. Magni illo voluptates et velit cumque!</p>
+          <img src="../images/prod3.jpg" class="img-fluid w-50" alt="Misión" title="Misión">
+  
+          <div class="row align-items-center">
+            <div class="col-md-4">            
+                <h2>Misión</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, sed. Deleniti fugiat iusto pariatur, repudiandae ab id enim assumenda mollitia delectus nisi quia qui, cumque sapiente libero nam? Molestias, accusamus.</p>
+            </div>
+            <div class="col-md-8">
+              <img src="../images/prod2.jpg" class="img-fluid w-50" alt="Misión" title="Misión">
+            </div>
+          </div><!-- .row -->
+          
+          <div class="row py-5 align-items-center">
+            <div class="col-md-8">
+              <img src="../images/prod1.jpg" class="img-fluid w-50" alt="Visión" title="Visión">
+            </div>
+            <div class="col-md-4">            
+                <h2>Visión</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, sed. Deleniti fugiat iusto pariatur, repudiandae ab id enim assumenda mollitia delectus nisi quia qui, cumque sapiente libero nam? Molestias, accusamus.</p>
+            </div>
+          </div><!-- .row -->
+          
+          <div class="row align-items-center">
+            <div class="col-md-4">            
+                <h2>Valores</h2>
+                <ul>
+                  <li>Valor</li>
+                  <li>Valor</li>
+                  <li>Valor</li>
+                  <li>Valor</li>
+                  <li>Valor</li>
+                </ul>
+            </div>
+            <div class="col-md-8">
+              <img src="../images/prod4.jpg" class="img-fluid w-50" alt="Valores" title="Valores">
+            </div>
+          </div><!-- .row -->
+        </div><!-- .col-md-8 -->
+      </div><!-- .row -->
 
-        <div>
-            <img src="../images/sinimg.jpg" alt="Misión" title="Misión">
-            <h2>Misión</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, sed. Deleniti fugiat iusto pariatur, repudiandae ab id enim assumenda mollitia delectus nisi quia qui, cumque sapiente libero nam? Molestias, accusamus.</p>
-        </div>
-        
-        <div>
-            <h2>Visión</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, sed. Deleniti fugiat iusto pariatur, repudiandae ab id enim assumenda mollitia delectus nisi quia qui, cumque sapiente libero nam? Molestias, accusamus.</p>
-            <img src="../images/sinimg.jpg" alt="Visión" title="Visión">
-        </div>
-
-        <div>
-            <img src="../images/sinimg.jpg" alt="Valores" title="Valores">
-            <h2>Valores</h2>
-            <ul>
-                <li>Valor</li>
-                <li>Valor</li>
-                <li>Valor</li>
-                <li>Valor</li>
-                <li>Valor</li>
-            </ul>
-        </div>
     </section>
 
     <!-- Section 3 - Paralax-->
     <section class="paralax">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet at, ullam maiores pariatur cupiditate consectetur neque voluptate tempora corrupti ex quas quidem assumenda aut dolore est ut, aliquam cum dicta.</p>
-        <a href="#" class="btn1">Ver productos</a>
-    </section>
+      <div class="container centrarVertical">
+          <p>Aprovecha el envío gratis a todo el país</p>
+          <a href="./productos.html" class="btn btn-dark btn-lg">Ver productos</a>
+          <!-- <button type="button" class=" mb-4">Ver productos</button> -->
+      </div><!-- .container -->
+  </section>
     
     <!-- Section 4 - Formulario-->
-    <section class="formulario">
-        <h2>Contáctanos</h2>
-        <form action="" method="post">
-            <label for="nombre">Nombre</label>
-            <br>
-            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
-            <br>
-            <label for="email">Email</label>
-            <br>
-            <input type="email" id="email" name="email" placeholder="Email" required>
-            <br>
-            <label for="msg">Mensaje</label>
-            <br>
-            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Mensaje" required></textarea>
-            <br>
-            <button type="submit" class="btn1">Enviar</button>
-        </form>
-    </section>
+    <section class="container py-5">
+      <h2 class="pb-2 text-center">Contáctanos</h2>
+      <span class="lineaTitulo mb-5"></span>
+      <div class="row justify-content-center">
+          <div class="col-10 col-md-6">
+              <form action="" class="text-center" method="post">
+                  <!-- <label for="nombre" class="form-label">Nombre</label> -->
+                  <input type="text" id="nombre" class="form-control mb-3" name="nombre" placeholder="Ingresa tu nombre" required>
+                  <!-- <label for="email" class="form-label">Email</label> -->
+                  <input type="email" id="email" class="form-control mb-3" name="email" placeholder="Ingresa tu Email" required>
+                  <!-- <label for="msg" class="form-label">Mensaje</label> -->
+                  <textarea name="msg" id="msg" class="form-control mb-3" cols="30" rows="10" placeholder="Cuéntanos que necesitas" required></textarea>
+                  <button type="submit" class="btn btn-dark btn-lg mt-3">Enviar</button>
+              </form>
+          </div><!-- .col-8 -->
+      </div><!-- .row -->
+  </section>
 
     <!-- Footer -->
     <footer class="footer">

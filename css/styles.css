@@ -15,6 +15,9 @@ a{
 section{
     background-color: #fff;
 }
+ul {
+    list-style: none;
+}
 .lineaTitulo{
     display: block;
     border: 1px solid #000;
