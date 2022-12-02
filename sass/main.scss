@@ -1,0 +1,33 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+a{
+    cursor:pointer;
+    text-decoration: none;
+}
+section{
+    background-color: #fff;
+}
+ul {
+    list-style: none;
+}
+.lineaTitulo{
+    display: block;
+    border: 1px solid #000;
+    max-width: 100px;
+    margin: 0 auto;
+}
+.centrarVertical{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
