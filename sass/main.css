@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* General */
+/* Generales */
 * {
   margin: 0;
   padding: 0;
@@ -39,19 +39,27 @@ ul {
   align-items: center;
 }
 
-/* ANIMACIONES */
-.btn-dark, .card, img {
+/* Animaciones */
+.btn-dark {
   transition: all 500ms !important;
 }
-.btn-dark .btn-dark:hover, .card .btn-dark:hover, img .btn-dark:hover {
+.btn-dark:hover {
   transform: translateY(-5px);
   background-color: #141414 !important;
 }
-.btn-dark .card:hover, .card .card:hover, img .card:hover {
+
+.card {
+  transition: all 500ms !important;
+}
+.card:hover {
   transform: scale(1.03);
 }
-.btn-dark .card:hover img, .card .card:hover img, img .card:hover img {
+.card:hover img {
   filter: grayscale(60%);
+}
+
+img {
+  transition: all 500ms !important;
 }
 
 /* Header */
@@ -64,22 +72,29 @@ ul {
   top: 0;
   z-index: 999;
 }
-
-nav.navbar {
+.header nav.navbar {
   background-color: #fff !important;
 }
-
 .headerLogo {
   max-width: 35px;
   max-height: 35px;
 }
 
+/* Footer */
+.footer {
+  background-color: #141414;
+  color: #e4e4e4;
+  font-size: 12px;
+  padding: 8px;
+  text-align: center;
+}
+
+/* __________ PAGINAS _______ */
 /* Main */
 main {
   height: 220px;
 }
-
-.carousel-inner .carousel-item {
+main .carousel-inner .carousel-item {
   max-height: 220px;
 }
 
@@ -87,7 +102,7 @@ main {
   main {
     height: 600px;
   }
-  .carousel-inner .carousel-item {
+  main .carousel-inner .carousel-item {
     max-height: 600px;
   }
 }
@@ -95,8 +110,7 @@ main {
 .cardDiferenciadores {
   border: none !important;
 }
-
-.imgDiferenciadores {
+.cardDiferenciadores .imgDiferenciadores {
   margin: 0 auto;
   max-width: 160px;
   padding-bottom: 10px;
@@ -112,7 +126,6 @@ main {
   background-repeat: no-repeat;
   text-align: center;
 }
-
 .paralax p {
   padding: 10px 10px;
   color: #e4e4e4;
@@ -127,20 +140,9 @@ main {
     margin-bottom: 30px;
   }
 }
-/* Seccion 3 */
 /* Seccion 4 */
 .servicios {
   background-color: #f5f5f5;
-}
-
-/* Seccion 5 */
-/* Footer */
-.footer {
-  background-color: #141414;
-  color: #e4e4e4;
-  font-size: 12px;
-  padding: 8px;
-  text-align: center;
 }
 
 /* PAGINAS INTERNAS */
@@ -151,7 +153,6 @@ main {
   background-position: center;
   background-size: cover;
 }
-
 .heroContenido {
   width: 100%;
   height: 100%;
@@ -159,7 +160,6 @@ main {
   position: absolute;
   top: 10%;
 }
-
 .heroContenido h1 {
   color: #fff;
   font-size: 65px;
@@ -180,7 +180,6 @@ main {
   margin-bottom: 5px;
   transition: all 300ms;
 }
-
 .sociales img:hover {
   filter: grayscale(0%);
   transform: scale(1.05);

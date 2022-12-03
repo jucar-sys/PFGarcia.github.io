@@ -1,0 +1,20 @@
+/* Animaciones */
+.btn-dark{
+    transition: all 500ms!important;
+    &:hover{
+        transform: translateY(-5px);
+        background-color: $colorSecundario!important;
+    }
+}
+.card{
+    transition: all 500ms!important;
+    &:hover{
+        transform: scale(1.03);
+    }
+    &:hover img{
+        filter: grayscale(60%);
+    }
+}
+img{
+    transition: all 500ms!important;
+}
