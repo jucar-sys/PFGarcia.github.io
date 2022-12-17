@@ -1,6 +1,6 @@
-# PreEntrega3Garcia.github.io
-Pre entrega de proyecto Comisión 33120
+# PFGarcia.github.io
+Proyecto final Comisión 33120
 
-Agregar SASS y SEO al proyecto.
+Revisar y corregir detalles finales del sitio web
 
-Link de vista online: https://jucar-sys.github.io/PreEntrega3Garcia.github.io/
+Link de vista online: https://jucar-sys.github.io/PFGarcia.github.io/
