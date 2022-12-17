@@ -13,7 +13,13 @@ html {
 
 a {
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+.sociales a {
+  cursor: pointer;
+  text-decoration: none !important;
+  color: #141414 !important;
 }
 
 section {
@@ -155,7 +161,7 @@ main .carousel-inner .carousel-item {
 }
 .heroContenido {
   width: 100%;
-  height: 100%;
+  height: 30%;
   text-align: center;
   position: absolute;
   top: 10%;

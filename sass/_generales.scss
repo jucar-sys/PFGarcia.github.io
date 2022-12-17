@@ -10,7 +10,14 @@ html{
 }
 a{
     cursor:pointer;
-    text-decoration: none;
+    text-decoration: none!important;
+}
+.sociales{
+    a{
+        cursor:pointer;
+        text-decoration: none!important;
+        color: $colorSecundario!important;
+    }
 }
 section{
     background-color: $colorPrincipal;
